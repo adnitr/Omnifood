@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
+  position: relative;
 
   height: 8rem;
   padding: 0 4rem;
@@ -53,6 +54,24 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  font-size: 3.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /*******************************************/
