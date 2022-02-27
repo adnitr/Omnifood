@@ -53,6 +53,8 @@ border-radius: 11px;
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  /* This doesn't work in Safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
